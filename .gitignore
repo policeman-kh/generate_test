@@ -31,3 +31,5 @@ nbdist/
 ### Mac ###
 .DS_Store
 
+.evosuite
+
