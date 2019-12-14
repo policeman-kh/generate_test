@@ -1,22 +1,28 @@
 package test.testme;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import test.NumberUtils;
 
-public class NumberUtilsTest {
+class NumberUtilsTest {
 
     @Test
-    public void testIsEvenNumberBetween1And100() throws Exception {
+    void testIsEvenNumberBetween1And100() {
         boolean result = NumberUtils.isEvenNumberBetween1And100(0);
-        Assert.assertEquals(true, result);
+        Assertions.assertEquals(true, result);
     }
 
     @Test
-    public void testIsOddNumberBetween1And50() throws Exception {
+    void testIsOddNumberBetween1And50() {
         boolean result = NumberUtils.isOddNumberBetween1And50(0);
-        Assert.assertEquals(true, result);
+        Assertions.assertEquals(true, result);
+    }
+
+    @Test
+    void testIsEvenNumberBetween1And10WithBadCode() {
+        boolean result = NumberUtils.isEvenNumberBetween1And10WithBadCode(0);
+        Assertions.assertEquals(true, result);
     }
 }
 

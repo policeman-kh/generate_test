@@ -14,4 +14,23 @@ public class NumberUtils {
         }
         return i % 2 != 0;
     }
+
+    public static boolean isEvenNumberBetween1And10WithBadCode(int i){
+        switch (i) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 9:
+                return false;
+            case 2:
+            case 4:
+            case 6:
+            case 8:
+            case 10:
+                return true;
+            default:
+                throw new IllegalArgumentException("input should be between 1 and 10.");
+        }
+    }
 }
