@@ -11,10 +11,10 @@ Please see the details ( summary / preparation / how to generate ) from the foll
 
 #### Tools of auto generation unit tests.
 
-- [TestMe](src/test/java/test/testme/Readme.md)
-- [Squaretest](src/test/java/test/squaretest/Readme.md)
-- [EvoSuite](src/test/java/test/evosuite/Readme.md)
-- [Randoop](src/test/java/test/randoop/Readme.md)
+- [TestMe](src/test/java/test/testme/)
+- [Squaretest](src/test/java/test/squaretest/)
+- [EvoSuite](src/test/java/test/evosuite/)
+- [Randoop](src/test/java/test/randoop/)
 
 
 
