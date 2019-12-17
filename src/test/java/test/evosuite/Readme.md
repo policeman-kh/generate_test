@@ -18,9 +18,9 @@
 2. Select pop up menus: Run Evosuite.
 <br><img src="./images/popup1.png" style="width:300px">
 3. Set options on pop up menu according to the following
-- Select executable jar of evosuite for "EvoSuite location".
-- Select your JDK path for "JAVA_HOME".
-- Select output directory for generated test codes for "Export folder".
+    - Select executable jar of evosuite for "EvoSuite location".
+    - Select your JDK path for "JAVA_HOME".
+    - Select output directory for generated test codes for "Export folder".
 <br><img src="./images/popup2.png" style="width:300px">
 4. Press OK button on pop up menu.
 5. Will generate unit tests on output directory.
